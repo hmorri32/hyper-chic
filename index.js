@@ -34,6 +34,7 @@ exports.decorateConfig = config => {
     fontFamily:     config.fontFamily  || '"Meslo LG S for Powerline"',
     css: `
       ${config.css || ''}
+      .terminal, .term_fit:not(.term_term) { opacity: 1 !important; }
       ::selection {
           background: #9198A2 !important;
       }
