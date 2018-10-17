@@ -1,12 +1,17 @@
 {
   "name": "hyper-chic",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chic theme for HyperTerm",
   "main": "index.js",
+  "repository": "hmorri32/hyper-chic",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "hyperterm",
+    "hyperterm-theme",
+    "chic"
+  ],
+  "author": "Hugh Morrison",
+  "license": "MIT"
 }
