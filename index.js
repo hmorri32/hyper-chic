@@ -1,27 +1,42 @@
-const backgroundColor = '#323E4D';
+const backgroundColor = '#15191b';
 const foregroundColor = '#CDD2E9';
 const cursorColor = '#2C85F7';
 const borderColor = '#323E4D';
+const red = '#fac14f';
+const green = '#90c2e7';
+const yellow = '#ddb22f';
+const blue = '#56aa59';
+const magenta = '#c0a8d0';
+const cyan = '#f8ccde';
+const lightBlack = '#546386';
+const lightRed = '#fac14f';
+const lightGreen = '#90c2e7';
+const lightYellow = '#FFB68E';
+const lightBlue = '#56aa59';
+const lightMagenta = '#c0a8d0';
+const lightCyan = '#f8ccde';
+const lightWhite = '#fefbee';
+
 const colors = {
-  black: backgroundColor,
-  red: '#fac14f',
-  green: '#90c2e7',
-  yellow: '#ddb22f',
-  blue: '#56aa59',
-  magenta: '#c0a8d0',
-  cyan: '#f8ccde',
-  white: foregroundColor,
-  lightBlack: '#546386',
-  lightRed: '#fac14f',
-  lightGreen: '#90c2e7',
-  lightYellow: '#FFB68E',
-  lightBlue: '#56aa59',
-  lightMagenta: '#c0a8d0',
-  lightCyan: '#f8ccde',
-  lightWhite: '#fefbee',
+  backgroundColor,
+  red,
+  green,
+  yellow,
+  blue,
+  magenta,
+  cyan,
+  foregroundColor,
+  lightBlack,
+  lightRed,
+  lightGreen,
+  lightYellow,
+  lightBlue,
+  lightMagenta,
+  lightCyan,
+  lightWhite,
 };
 
-exports.decorateBrowserOptions = opts => {
+module.exports.decorateBrowserOptions = opts => {
   opts.transparent = false;
   return opts;
 };
